@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3127CE226FB8568006EE202 /* menuViewControllerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3127CE126FB8568006EE202 /* menuViewControllerCollectionViewController.swift */; };
+		B3127CE526FB868F006EE202 /* MenuCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3127CE326FB868F006EE202 /* MenuCellCollectionViewCell.swift */; };
+		B3127CE626FB868F006EE202 /* MenuCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3127CE426FB868F006EE202 /* MenuCellCollectionViewCell.xib */; };
+		B3127D0A26FE2F4D006EE202 /* MenuSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3127D0926FE2F4D006EE202 /* MenuSelectViewController.swift */; };
 		B38691C526EBC13A00521B59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38691C426EBC13A00521B59 /* AppDelegate.swift */; };
 		B38691C726EBC13A00521B59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38691C626EBC13A00521B59 /* SceneDelegate.swift */; };
 		B38691C926EBC13A00521B59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38691C826EBC13A00521B59 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B3127CE126FB8568006EE202 /* menuViewControllerCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewControllerCollectionViewController.swift; sourceTree = "<group>"; };
+		B3127CE326FB868F006EE202 /* MenuCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		B3127CE426FB868F006EE202 /* MenuCellCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		B3127D0926FE2F4D006EE202 /* MenuSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSelectViewController.swift; sourceTree = "<group>"; };
 		B38691C126EBC13A00521B59 /* Cup Of Joe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cup Of Joe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38691C426EBC13A00521B59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B38691C626EBC13A00521B59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +68,10 @@
 				B38691C626EBC13A00521B59 /* SceneDelegate.swift */,
 				B38691C826EBC13A00521B59 /* ViewController.swift */,
 				B38691CA26EBC13A00521B59 /* Main.storyboard */,
+				B3127CE326FB868F006EE202 /* MenuCellCollectionViewCell.swift */,
+				B3127CE426FB868F006EE202 /* MenuCellCollectionViewCell.xib */,
+				B3127CE126FB8568006EE202 /* menuViewControllerCollectionViewController.swift */,
+				B3127D0926FE2F4D006EE202 /* MenuSelectViewController.swift */,
 				B38691CD26EBC13A00521B59 /* Assets.xcassets */,
 				B38691CF26EBC13A00521B59 /* LaunchScreen.storyboard */,
 				B38691D226EBC13A00521B59 /* Info.plist */,
@@ -127,6 +139,7 @@
 				B38691D126EBC13A00521B59 /* LaunchScreen.storyboard in Resources */,
 				B38691CE26EBC13A00521B59 /* Assets.xcassets in Resources */,
 				B38691CC26EBC13A00521B59 /* Main.storyboard in Resources */,
+				B3127CE626FB868F006EE202 /* MenuCellCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B38691C926EBC13A00521B59 /* ViewController.swift in Sources */,
+				B3127D0A26FE2F4D006EE202 /* MenuSelectViewController.swift in Sources */,
+				B3127CE526FB868F006EE202 /* MenuCellCollectionViewCell.swift in Sources */,
 				B38691C526EBC13A00521B59 /* AppDelegate.swift in Sources */,
+				B3127CE226FB8568006EE202 /* menuViewControllerCollectionViewController.swift in Sources */,
 				B38691C726EBC13A00521B59 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,11 +305,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CMADG2L3X7;
 				INFOPLIST_FILE = "Cup Of Joe/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Futures-Lab.Cup-Of-Joe";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cup-Of-Joe.Futures-Lab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -308,11 +325,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CMADG2L3X7;
 				INFOPLIST_FILE = "Cup Of Joe/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Futures-Lab.Cup-Of-Joe";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cup-Of-Joe.Futures-Lab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
