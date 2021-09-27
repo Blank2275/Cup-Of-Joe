@@ -36,7 +36,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="KaM-qG-4P1" kind="show" id="nlP-BD-dLA"/>
+                                    <segue destination="iDa-rh-GNA" kind="show" id="Vm0-rs-o8p"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cup of Joe Logo" translatesAutoresizingMaskIntoConstraints="NO" id="nbD-xW-m5w">
@@ -233,38 +233,31 @@
             </objects>
             <point key="canvasLocation" x="805.79710144927537" y="73.660714285714278"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Ahl-Dx-7aM">
+        <!--Order View Controller-->
+        <scene sceneID="wVy-Oh-utO">
             <objects>
-                <viewController id="KaM-qG-4P1" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vLx-Ku-x9Y">
+                <viewController id="iDa-rh-GNA" customClass="OrderViewController" customModule="Cup_Of_Joe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dvK-D2-Q3w">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqE-2g-82z">
-                                <rect key="frame" x="142" y="83" width="130" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0p-C6-078">
+                                <rect key="frame" x="20" y="64" width="374" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.73900612109999997" green="0.52328355049999997" blue="0.225320241" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Order Now">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                                <state key="normal" title="Order Now"/>
+                                <connections>
+                                    <action selector="showOrderForm:" destination="iDa-rh-GNA" eventType="touchUpInside" id="Z2B-kd-ZL4"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Will pop up google form for now" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5q-bv-qze">
-                                <rect key="frame" x="56" y="249" width="301" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="j7H-MA-Kyt"/>
+                        <viewLayoutGuide key="safeArea" id="wzZ-oj-Yai"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="DFr-Jr-Fgy"/>
+                    <navigationItem key="navigationItem" id="Vi0-gs-jDa"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hfp-dR-cVA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4yl-uZ-MkS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1575.3623188405797" y="73.660714285714278"/>
+            <point key="canvasLocation" x="1498.5507246376812" y="73.660714285714278"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

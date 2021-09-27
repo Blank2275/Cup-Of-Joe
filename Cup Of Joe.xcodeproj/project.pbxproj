@@ -17,6 +17,7 @@
 		B38691CC26EBC13A00521B59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38691CA26EBC13A00521B59 /* Main.storyboard */; };
 		B38691CE26EBC13A00521B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38691CD26EBC13A00521B59 /* Assets.xcassets */; };
 		B38691D126EBC13A00521B59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38691CF26EBC13A00521B59 /* LaunchScreen.storyboard */; };
+		B3F32CDA27021C78003B1A19 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F32CD927021C78003B1A19 /* OrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B38691CD26EBC13A00521B59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B38691D026EBC13A00521B59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B38691D226EBC13A00521B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F32CD927021C78003B1A19 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				B38691C626EBC13A00521B59 /* SceneDelegate.swift */,
 				B38691C826EBC13A00521B59 /* ViewController.swift */,
 				B38691CA26EBC13A00521B59 /* Main.storyboard */,
+				B3F32CD927021C78003B1A19 /* OrderViewController.swift */,
 				B3127CE326FB868F006EE202 /* MenuCellCollectionViewCell.swift */,
 				B3127CE426FB868F006EE202 /* MenuCellCollectionViewCell.xib */,
 				B3127CE126FB8568006EE202 /* menuViewControllerCollectionViewController.swift */,
@@ -153,6 +156,7 @@
 				B38691C926EBC13A00521B59 /* ViewController.swift in Sources */,
 				B3127D0A26FE2F4D006EE202 /* MenuSelectViewController.swift in Sources */,
 				B3127CE526FB868F006EE202 /* MenuCellCollectionViewCell.swift in Sources */,
+				B3F32CDA27021C78003B1A19 /* OrderViewController.swift in Sources */,
 				B38691C526EBC13A00521B59 /* AppDelegate.swift in Sources */,
 				B3127CE226FB8568006EE202 /* menuViewControllerCollectionViewController.swift in Sources */,
 				B38691C726EBC13A00521B59 /* SceneDelegate.swift in Sources */,

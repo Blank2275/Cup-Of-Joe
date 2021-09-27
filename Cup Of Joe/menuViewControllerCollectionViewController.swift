@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SafariServices
 
 private let reuseIdentifier = "Cell"
 var student = true
@@ -38,7 +39,7 @@ var menu = [
     ]
 ]
 
-class menuViewControllerCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
+class menuViewControllerCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout, SFSafariViewControllerDelegate{
     var selectedMenu = student ? menu[1] : menu[0]
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -87,6 +88,8 @@ class menuViewControllerCollectionViewController: UICollectionViewController, UI
         if let label = cell.titleLabel{
             label.text = "\(selectedMenu[indexPath.row][0]): \(selectedMenu[indexPath.row][2]) \n \(selectedMenu[indexPath.row][3])"
             label.sizeToFit()
+            let pos = label.frame.origin
+            label.frame = CGRect(origin: CGPoint(x: pos.x, y: pos.y), size: CGSize(width: 220, height: label.frame.height))
         }
         cell.image.image = UIImage(named: selectedMenu[indexPath.row][1])
         // Configure the cell
