@@ -62,7 +62,7 @@ class menuViewControllerCollectionViewController: UICollectionViewController, UI
     var selectedMenu = student ? menu[1] : menu[0]
     override func viewDidLoad() {
         super.viewDidLoad()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1){
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.01){
             self.selectedMenu = student ? menu[1] : menu[0]
             self.collectionView.reloadData()
         }
