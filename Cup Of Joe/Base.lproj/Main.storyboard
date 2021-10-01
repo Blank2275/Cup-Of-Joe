@@ -151,9 +151,9 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="234" id="ERA-RJ-Tma"/>
                                 </constraints>
-                                <mutableString key="text">Fossil Ridge High School's Cup of Joe coffee shop and SaberLaser engraving service are the two dynamic arms of the Alternative Cooperative Education (ACE) program housed in room 503, right off the cafeteria. The neurodiverse students in Mr. Waters' career skills-based classes learn and practice stress management as they develop confidence being baristas and operating a business.
+                                <string key="text">Fossil Ridge High School's Cup of Joe coffee shop and SaberLaser engraving service are the two dynamic arms of the Alternative Cooperative Education (ACE) program housed in room 503, right off the cafeteria. The neurodiverse students in Mr. Waters' career skills-based classes learn and practice stress management as they develop confidence being baristas and operating a business.
 
-"I'd love for kids to walk out of here feeling comfortable with job skills," Waters says. "I want it to be as much of a real experience as possible."</mutableString>
+"I'd love for kids to walk out of here feeling comfortable with job skills," Waters says. "I want it to be as much of a real experience as possible."</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -161,7 +161,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="e1a-sg-Ikh">
                                 <rect key="frame" x="10" y="596" width="355" height="268"/>
                                 <color key="backgroundColor" red="1" green="0.95445393909999998" blue="0.93281247310000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">The name Cup of Joe is more than just a catchy name for a coffee shop; for us, it also pays homage to the previous ACE coordinator, Joe Allen, who created and developed this student-operated coffee bar nearly a decade ago. His emphasis on respecting and nurturing the unique abilities of all still guides us daily. Being kind and open to trying new things, having fun while learning from mistakes, and giving back are virtues Joe Allen valued which we use to pursue success. As a previous host at Barista Pro Shop in Loveland observed after an ACE field trip, "Vocational training can be a powerful tool to help teens find a career that really aligns with their interests and reveals the way to a career path that will be personally gratifying and rewarding."</mutableString>
+                                <string key="text">The name Cup of Joe is more than just a catchy name for a coffee shop; for us, it also pays homage to the previous ACE coordinator, Joe Allen, who created and developed this student-operated coffee bar nearly a decade ago. His emphasis on respecting and nurturing the unique abilities of all still guides us daily. Being kind and open to trying new things, having fun while learning from mistakes, and giving back are virtues Joe Allen valued which we use to pursue success. As a previous host at Barista Pro Shop in Loveland observed after an ACE field trip, "Vocational training can be a powerful tool to help teens find a career that really aligns with their interests and reveals the way to a career path that will be personally gratifying and rewarding."</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -315,35 +315,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="0.95445393909999998" blue="0.93281247310000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="5Ro-Tw-HtR">
-                            <size key="itemSize" width="220" height="220"/>
+                            <size key="itemSize" width="220" height="280"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" reuseIdentifier="Cell" id="fvy-ru-hmv" customClass="MenuCellCollectionViewCell" customModule="Cup_Of_Joe" customModuleProvider="target">
-                                <rect key="frame" x="77.666666666666671" y="0.0" width="220" height="220"/>
+                                <rect key="frame" x="77.666666666666671" y="0.0" width="220" height="280"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="wfR-0I-5RC">
-                                    <rect key="frame" x="0.0" y="0.0" width="220" height="220"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="220" height="280"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7C7-Kl-9HS">
-                                            <rect key="frame" x="50" y="0.0" width="121" height="127"/>
+                                            <rect key="frame" x="50" y="0.0" width="120" height="127"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jF7-db-s4U">
-                                            <rect key="frame" x="0.0" y="135" width="212" height="85"/>
+                                            <rect key="frame" x="0.0" y="135" width="220" height="85"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.86087566609999999" green="0.60957827310000001" blue="0.26247781580000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="backgroundColor" red="0.86087566609999999" green="0.67585053691179509" blue="0.48777845395450709" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </collectionViewCellContentView>
-                                <color key="backgroundColor" red="0.86087566609999999" green="0.60957827310000001" blue="0.26247781580000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <size key="customSize" width="220" height="220"/>
+                                <color key="backgroundColor" red="0.86087566609999999" green="0.72934862275323964" blue="0.50087291339559037" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="customSize" width="220" height="280"/>
                                 <connections>
                                     <outlet property="image" destination="7C7-Kl-9HS" id="7lb-Db-HM8"/>
                                     <outlet property="titleLabel" destination="jF7-db-s4U" id="i6J-cz-fiP"/>
@@ -359,7 +359,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fWf-zH-dtB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="805.79710144927537" y="73.660714285714278"/>
+            <point key="canvasLocation" x="805.60000000000002" y="73.152709359605907"/>
         </scene>
         <!--Order View Controller-->
         <scene sceneID="wVy-Oh-utO">

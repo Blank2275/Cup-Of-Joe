@@ -56,7 +56,9 @@ var menu = [
     ]
 ]
 
-class menuViewControllerCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout, SFSafariViewControllerDelegate{
+class menuViewControllerCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout, SFSafariViewControllerDelegate
+{
+    
     var selectedMenu = student ? menu[1] : menu[0]
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -126,7 +128,6 @@ class menuViewControllerCollectionViewController: UICollectionViewController, UI
         // Configure the cell
         return cell
     }
-
     // MARK: UICollectionViewDelegate
 
     /*
