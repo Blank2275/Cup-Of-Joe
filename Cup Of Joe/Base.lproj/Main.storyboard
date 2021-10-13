@@ -205,7 +205,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mon - Fri" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBw-bz-Mb3">
-                                <rect key="frame" x="10" y="294" width="355" height="61"/>
+                                <rect key="frame" x="10" y="329" width="355" height="61"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="61" id="3C9-qu-vvM"/>
                                 </constraints>
@@ -213,10 +213,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:00 AM- 4:00 PM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6au-iZ-Sz3">
-                                <rect key="frame" x="10" y="198" width="355" height="61"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:30 am - 11:30 am 1:30 pm - 4:00 pm" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6au-iZ-Sz3">
+                                <rect key="frame" x="10" y="150" width="355" height="94"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="61" id="aLF-vv-Bsi"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="94" id="wLG-A3-4Gk"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
@@ -230,15 +230,17 @@
                             <constraint firstItem="gBw-bz-Mb3" firstAttribute="top" secondItem="6au-iZ-Sz3" secondAttribute="bottom" constant="35" id="NYk-ng-X9G"/>
                             <constraint firstItem="gBw-bz-Mb3" firstAttribute="leading" secondItem="YG6-SO-Wc3" secondAttribute="leading" constant="10" id="Q4E-2d-36D"/>
                             <constraint firstItem="6au-iZ-Sz3" firstAttribute="leading" secondItem="YG6-SO-Wc3" secondAttribute="leading" constant="10" id="U2A-bF-Nmt"/>
+                            <constraint firstItem="gBw-bz-Mb3" firstAttribute="top" secondItem="6au-iZ-Sz3" secondAttribute="bottom" constant="85" id="UOg-Ac-Ulx"/>
                             <constraint firstItem="6au-iZ-Sz3" firstAttribute="top" secondItem="YG6-SO-Wc3" secondAttribute="top" constant="198" id="WxP-ii-g9g"/>
                             <constraint firstItem="YG6-SO-Wc3" firstAttribute="trailing" secondItem="6au-iZ-Sz3" secondAttribute="trailing" constant="10" id="jap-mo-wgg"/>
+                            <constraint firstItem="6au-iZ-Sz3" firstAttribute="top" secondItem="YG6-SO-Wc3" secondAttribute="top" constant="150" id="qTG-Di-3O0"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9Qw-0v-edd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l3G-dA-Lym" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="807.20000000000005" y="741.13300492610836"/>
+            <point key="canvasLocation" x="807.20000000000005" y="740.39408866995075"/>
         </scene>
         <!--Menu Select View Controller-->
         <scene sceneID="5Iy-h0-d39">
