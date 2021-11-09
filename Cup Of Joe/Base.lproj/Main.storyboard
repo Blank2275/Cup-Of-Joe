@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GU3-VV-Xok">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -17,195 +17,153 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4a0-8H-asJ">
-                                <rect key="frame" x="100" y="310" width="175" height="69"/>
-                                <color key="backgroundColor" red="0.73900612109999997" green="0.52328355049999997" blue="0.225320241" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="69" id="DfV-gZ-E7N"/>
-                                    <constraint firstAttribute="height" constant="69" id="ekf-2M-EB2"/>
-                                </constraints>
-                                <state key="normal" title="Menu">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="vkD-SX-iue" kind="show" id="eSB-Cq-nUw"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0i-rJ-50J">
-                                <rect key="frame" x="100" y="516" width="175" height="69"/>
-                                <color key="backgroundColor" red="0.73900612109999997" green="0.52328355049999997" blue="0.225320241" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="69" id="fdi-dL-ymX"/>
-                                </constraints>
-                                <state key="normal" title="Order">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="iDa-rh-GNA" kind="show" id="Vm0-rs-o8p"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cup of Joe Logo" translatesAutoresizingMaskIntoConstraints="NO" id="nbD-xW-m5w">
-                                <rect key="frame" x="20" y="44" width="335" height="248"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="374" id="0Tu-Zt-EpX"/>
-                                    <constraint firstAttribute="height" constant="248" id="lk3-mz-bDT"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cup_of_Joe_Logo-no-bg" translatesAutoresizingMaskIntoConstraints="NO" id="n2E-3G-xAW">
+                                <rect key="frame" x="0.0" y="148" width="375" height="630"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAd-er-ELI">
-                                <rect key="frame" x="100" y="414" width="175" height="69"/>
-                                <color key="backgroundColor" red="0.73900612109999997" green="0.52328355049999997" blue="0.225320241" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fWM-Vc-RRu">
+                                <rect key="frame" x="0.0" y="88" width="375" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="69" id="5Gn-BQ-Qka"/>
+                                    <constraint firstAttribute="height" constant="60" id="NdT-4n-xTf"/>
                                 </constraints>
-                                <state key="normal" title="Hours">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="1aB-Ne-vlt" kind="show" id="Bfv-DO-HDD"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scroll Up For About Page" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0b-lk-1Gm">
-                                <rect key="frame" x="40" y="708" width="295" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <items>
+                                    <navigationItem title="Pages" id="Y7N-gW-RYY">
+                                        <leftBarButtonItems>
+                                            <barButtonItem title="Menu" id="MgL-Wu-jMm">
+                                                <connections>
+                                                    <segue destination="vkD-SX-iue" kind="show" id="HPh-sV-nIM"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem title="Hours" id="YXC-d4-T60">
+                                                <connections>
+                                                    <segue destination="1aB-Ne-vlt" kind="show" id="lrY-BH-gEP"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem title="Order" id="Hix-jL-SfF">
+                                                <connections>
+                                                    <segue destination="iDa-rh-GNA" kind="show" id="UnY-ah-sy2"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem title="About" id="A2Y-Bu-Dj4">
+                                                <connections>
+                                                    <segue destination="K4x-zV-Z5A" kind="show" id="0dS-bK-uFQ"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </leftBarButtonItems>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="0.95445393909999998" blue="0.93281247310000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="nbD-xW-m5w" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2xL-ZV-j2T"/>
-                            <constraint firstItem="nbD-xW-m5w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E2J-kf-sMb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="I0b-lk-1Gm" secondAttribute="bottom" constant="49" id="Jrx-cO-aDk"/>
-                            <constraint firstItem="4a0-8H-asJ" firstAttribute="top" secondItem="nbD-xW-m5w" secondAttribute="bottom" constant="18" id="KfA-h6-Ka2"/>
-                            <constraint firstItem="4a0-8H-asJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Mtp-Jz-6Tp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nbD-xW-m5w" secondAttribute="trailing" constant="20" id="SJT-iP-wHN"/>
-                            <constraint firstItem="I0b-lk-1Gm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="VlE-bY-R1T"/>
-                            <constraint firstItem="4a0-8H-asJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="VyB-vH-GtY"/>
-                            <constraint firstItem="nbD-xW-m5w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ZQS-5X-GUr"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EAd-er-ELI" secondAttribute="trailing" constant="100" id="aLA-sN-gqr"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nbD-xW-m5w" secondAttribute="trailing" constant="20" id="anG-zE-aVS"/>
-                            <constraint firstItem="EAd-er-ELI" firstAttribute="top" secondItem="4a0-8H-asJ" secondAttribute="bottom" constant="35" id="bmR-c4-iKd"/>
-                            <constraint firstItem="4a0-8H-asJ" firstAttribute="top" secondItem="nbD-xW-m5w" secondAttribute="bottom" constant="18" id="dRp-BK-RJL"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R0i-rJ-50J" secondAttribute="trailing" constant="100" id="gdo-Fg-QZc"/>
-                            <constraint firstItem="EAd-er-ELI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="iKQ-If-Y2b"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4a0-8H-asJ" secondAttribute="trailing" constant="100" id="k5D-re-uUR"/>
-                            <constraint firstItem="4a0-8H-asJ" firstAttribute="top" secondItem="nbD-xW-m5w" secondAttribute="bottom" constant="18" id="lTr-rq-QZ5"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4a0-8H-asJ" secondAttribute="trailing" constant="100" id="vFi-jk-EE7"/>
-                            <constraint firstItem="4a0-8H-asJ" firstAttribute="top" secondItem="nbD-xW-m5w" secondAttribute="bottom" constant="18" id="wHv-7i-7pk"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I0b-lk-1Gm" secondAttribute="trailing" constant="40" id="wSC-em-f3n"/>
-                            <constraint firstItem="R0i-rJ-50J" firstAttribute="top" secondItem="EAd-er-ELI" secondAttribute="bottom" constant="33" id="xvv-w0-yU3"/>
-                            <constraint firstItem="R0i-rJ-50J" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="yCY-HJ-rWp"/>
-                            <constraint firstItem="nbD-xW-m5w" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zBp-Kf-QqY"/>
+                            <constraint firstItem="fWM-Vc-RRu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4e0-p7-KwB"/>
+                            <constraint firstItem="n2E-3G-xAW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9Jw-xb-7Et"/>
+                            <constraint firstItem="n2E-3G-xAW" firstAttribute="top" secondItem="fWM-Vc-RRu" secondAttribute="bottom" id="DjC-8z-CEn"/>
+                            <constraint firstItem="fWM-Vc-RRu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Pnf-6G-fv9"/>
+                            <constraint firstItem="n2E-3G-xAW" firstAttribute="top" secondItem="fWM-Vc-RRu" secondAttribute="bottom" id="Wp1-RO-ldN"/>
+                            <constraint firstItem="n2E-3G-xAW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="YCo-Bs-qo9"/>
+                            <constraint firstItem="n2E-3G-xAW" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="YDz-eH-lgo"/>
+                            <constraint firstItem="fWM-Vc-RRu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bhO-su-DdX"/>
+                            <constraint firstItem="fWM-Vc-RRu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="lwa-fi-qNX"/>
                         </constraints>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="XRy-Xs-1dc" appends="YES" id="SXb-qz-W1q"/>
-                        </connections>
                     </view>
+                    <navigationItem key="navigationItem" id="7x6-wn-FdI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="XRy-Xs-1dc">
-                    <connections>
-                        <action selector="scrollUp:" destination="BYZ-38-t0r" id="tfp-SW-dki"/>
-                    </connections>
-                </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="28.985507246376812" y="73.660714285714278"/>
+            <point key="canvasLocation" x="970.39999999999998" y="73.152709359605907"/>
         </scene>
-        <!--About View Controller-->
-        <scene sceneID="qfY-20-oE5">
+        <!--View Controller-->
+        <scene sceneID="U0I-B8-EAr">
             <objects>
-                <viewController storyboardIdentifier="AboutScreen" id="ejN-39-53w" customClass="AboutViewController" customModule="Cup_Of_Joe" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="q8f-aM-Ere" customClass="Abo">
+                <viewController id="ghd-Rs-Zjb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1lt-8s-wiV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Cup of Joe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E64-Lk-pnk">
-                                <rect key="frame" x="20" y="81" width="335" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="TkB-UB-FMB"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wMC-Qw-QSl">
-                                <rect key="frame" x="20" y="134" width="335" height="234"/>
-                                <color key="backgroundColor" red="1" green="0.95445393909999998" blue="0.93281247310000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="234" id="ERA-RJ-Tma"/>
-                                </constraints>
-                                <string key="text">Fossil Ridge High School's Cup of Joe coffee shop and SaberLaser engraving service are the two dynamic arms of the Alternative Cooperative Education (ACE) program housed in room 503, right off the cafeteria. The neurodiverse students in Mr. Waters' career skills-based classes learn and practice stress management as they develop confidence being baristas and operating a business.
-
-"I'd love for kids to walk out of here feeling comfortable with job skills," Waters says. "I want it to be as much of a real experience as possible."</string>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hRd-a1-Tze">
+                                <rect key="frame" x="10" y="98" width="355" height="670"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">The name Cup of Joe is more than just a catchy name for a coffee shop; for us, it also pays homage to the previous ACE coordinator, Joe Allen, who created and developed this student-operated coffee bar nearly a decade ago. His emphasis on respecting and nurturing the unique abilities of all still guides us daily. Being kind and open to trying new things, having fun while learning from mistakes, and giving back are virtues Joe Allen valued which we use to pursue success. As a previous host at Barista Pro Shop in Loveland observed after an ACE field trip, "Vocational training can be a powerful tool to help teens find a career that really aligns with their interests and reveals the way to a career path that will be personally gratifying and rewarding."</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="e1a-sg-Ikh">
-                                <rect key="frame" x="10" y="596" width="355" height="268"/>
-                                <color key="backgroundColor" red="1" green="0.95445393909999998" blue="0.93281247310000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <string key="text">The name Cup of Joe is more than just a catchy name for a coffee shop; for us, it also pays homage to the previous ACE coordinator, Joe Allen, who created and developed this student-operated coffee bar nearly a decade ago. His emphasis on respecting and nurturing the unique abilities of all still guides us daily. Being kind and open to trying new things, having fun while learning from mistakes, and giving back are virtues Joe Allen valued which we use to pursue success. As a previous host at Barista Pro Shop in Loveland observed after an ACE field trip, "Vocational training can be a powerful tool to help teens find a career that really aligns with their interests and reveals the way to a career path that will be personally gratifying and rewarding."</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Cup of Joe Logo" translatesAutoresizingMaskIntoConstraints="NO" id="fLV-79-jjv">
-                                <rect key="frame" x="20" y="376" width="335" height="195"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="195" id="pU2-Ju-i83"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="KoO-M1-Tk4"/>
+                        <viewLayoutGuide key="safeArea" id="iKz-fP-dFh"/>
                         <color key="backgroundColor" red="1" green="0.95445393909999998" blue="0.93281247310000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="KoO-M1-Tk4" firstAttribute="trailing" secondItem="fLV-79-jjv" secondAttribute="trailing" constant="20" id="0Uf-wn-J0o"/>
-                            <constraint firstItem="fLV-79-jjv" firstAttribute="top" secondItem="wMC-Qw-QSl" secondAttribute="bottom" constant="20" id="4ID-16-jq1"/>
-                            <constraint firstItem="E64-Lk-pnk" firstAttribute="top" secondItem="KoO-M1-Tk4" secondAttribute="top" constant="37" id="6IL-0G-fKk"/>
-                            <constraint firstItem="KoO-M1-Tk4" firstAttribute="trailing" secondItem="wMC-Qw-QSl" secondAttribute="trailing" constant="20" id="6J5-39-4UT"/>
-                            <constraint firstItem="e1a-sg-Ikh" firstAttribute="top" secondItem="fLV-79-jjv" secondAttribute="bottom" constant="13" id="ANh-6n-ArO"/>
-                            <constraint firstItem="wMC-Qw-QSl" firstAttribute="leading" secondItem="KoO-M1-Tk4" secondAttribute="leading" constant="20" id="Fdw-2z-9ei"/>
-                            <constraint firstItem="e1a-sg-Ikh" firstAttribute="bottom" secondItem="KoO-M1-Tk4" secondAttribute="bottom" id="RUw-Fc-3Mk"/>
-                            <constraint firstItem="E64-Lk-pnk" firstAttribute="leading" secondItem="KoO-M1-Tk4" secondAttribute="leading" constant="20" id="U5t-dM-PiA"/>
-                            <constraint firstItem="KoO-M1-Tk4" firstAttribute="trailing" secondItem="e1a-sg-Ikh" secondAttribute="trailing" constant="10" id="dtB-HP-9t4"/>
-                            <constraint firstItem="KoO-M1-Tk4" firstAttribute="trailing" secondItem="E64-Lk-pnk" secondAttribute="trailing" constant="20" id="ehm-Dd-rEI"/>
-                            <constraint firstItem="e1a-sg-Ikh" firstAttribute="leading" secondItem="KoO-M1-Tk4" secondAttribute="leading" constant="10" id="mjl-iJ-xNt"/>
-                            <constraint firstItem="wMC-Qw-QSl" firstAttribute="top" secondItem="E64-Lk-pnk" secondAttribute="bottom" constant="8" symbolic="YES" id="pRe-PR-3kk"/>
-                            <constraint firstItem="fLV-79-jjv" firstAttribute="leading" secondItem="KoO-M1-Tk4" secondAttribute="leading" constant="20" id="uSS-40-IXr"/>
+                            <constraint firstItem="iKz-fP-dFh" firstAttribute="trailing" secondItem="hRd-a1-Tze" secondAttribute="trailing" constant="10" id="4aM-Dc-96A"/>
+                            <constraint firstItem="hRd-a1-Tze" firstAttribute="leading" secondItem="iKz-fP-dFh" secondAttribute="leading" constant="10" id="Y6Q-Y5-X2b"/>
+                            <constraint firstItem="hRd-a1-Tze" firstAttribute="top" secondItem="iKz-fP-dFh" secondAttribute="top" constant="10" id="iqm-sd-nHk"/>
+                            <constraint firstItem="iKz-fP-dFh" firstAttribute="bottom" secondItem="hRd-a1-Tze" secondAttribute="bottom" constant="10" id="qfa-tK-P4e"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="YfN-PC-tev"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Oqj-5e-lj9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BQh-cb-MI4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28" y="740.39408866995075"/>
+            <point key="canvasLocation" x="-574" y="740"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="fW3-gE-ail">
+            <objects>
+                <viewController id="K4x-zV-Z5A" customClass="AboutViewController" customModule="Cup_Of_Joe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DT9-gJ-QIi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yky-uh-vwx">
+                                <rect key="frame" x="10" y="108" width="355" height="598"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Fossil Ridge High School's Cup of Joe coffee shop and SaberLaser engraving service are the two dynamic arms of the Alternative Cooperative Education (ACE) program housed in room 503, right off the cafeteria. The neurodiverse students in Mr. Waters' career skills-based classes learn and practice stress management as they develop confidence being baristas and operating a business.
+
+"I'd love for kids to walk out of here feeling comfortable with job skills," Waters says. "I want it to be as much of a real experience as possible."</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwp-d0-kLs">
+                                <rect key="frame" x="0.0" y="714" width="375" height="30"/>
+                                <color key="backgroundColor" red="0.73900612109999997" green="0.52328355049999997" blue="0.225320241" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Next Page">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ghd-Rs-Zjb" kind="show" id="Ph7-d6-5fA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yYf-jz-lof"/>
+                        <color key="backgroundColor" red="1" green="0.95445393909999998" blue="0.93281247310000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="yky-uh-vwx" firstAttribute="top" secondItem="yYf-jz-lof" secondAttribute="top" constant="19" id="bEN-na-VAx"/>
+                            <constraint firstItem="yYf-jz-lof" firstAttribute="bottom" secondItem="fwp-d0-kLs" secondAttribute="bottom" constant="34" id="ekV-XB-1a8"/>
+                            <constraint firstItem="yky-uh-vwx" firstAttribute="top" secondItem="yYf-jz-lof" secondAttribute="top" constant="20" id="g5e-Xr-Vni"/>
+                            <constraint firstItem="fwp-d0-kLs" firstAttribute="top" secondItem="yky-uh-vwx" secondAttribute="bottom" constant="8" symbolic="YES" id="oiu-iG-Uoo"/>
+                            <constraint firstItem="fwp-d0-kLs" firstAttribute="leading" secondItem="yYf-jz-lof" secondAttribute="leading" id="r9b-5u-KjO"/>
+                            <constraint firstItem="yYf-jz-lof" firstAttribute="trailing" secondItem="fwp-d0-kLs" secondAttribute="trailing" id="tSf-vA-3cB"/>
+                            <constraint firstItem="yYf-jz-lof" firstAttribute="trailing" secondItem="yky-uh-vwx" secondAttribute="trailing" constant="10" id="yVQ-XK-XO8"/>
+                            <constraint firstItem="yky-uh-vwx" firstAttribute="leading" secondItem="yYf-jz-lof" secondAttribute="leading" constant="10" id="yh6-54-27Z"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="o6G-HK-8Bk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AUJ-dd-5Xf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="104.8" y="739.65517241379314"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="p7c-xf-SCi">
             <objects>
                 <viewController id="1aB-Ne-vlt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Cm-Xg-KKW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mon - Fri" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBw-bz-Mb3">
-                                <rect key="frame" x="10" y="329" width="355" height="61"/>
+                                <rect key="frame" x="10" y="417" width="355" height="61"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="61" id="3C9-qu-vvM"/>
                                 </constraints>
@@ -214,7 +172,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:30 am - 11:30 am 1:30 pm - 4:00 pm" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6au-iZ-Sz3">
-                                <rect key="frame" x="10" y="150" width="355" height="94"/>
+                                <rect key="frame" x="10" y="238" width="355" height="94"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="94" id="wLG-A3-4Gk"/>
                                 </constraints>
@@ -247,11 +205,11 @@
             <objects>
                 <viewController id="vkD-SX-iue" customClass="MenuSelectViewController" customModule="Cup_Of_Joe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CMt-G0-1Ay">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="suB-PY-67j">
-                                <rect key="frame" x="80" y="113" width="215" height="60"/>
+                                <rect key="frame" x="80" y="201" width="215" height="60"/>
                                 <color key="backgroundColor" red="0.73900612109999997" green="0.52328355049999997" blue="0.225320241" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="lRf-WM-iLS"/>
@@ -271,7 +229,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="isf-kZ-bd0">
-                                <rect key="frame" x="80" y="253" width="215" height="66"/>
+                                <rect key="frame" x="80" y="341" width="215" height="66"/>
                                 <color key="backgroundColor" red="0.73900612109999997" green="0.52328355049999997" blue="0.225320241" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="66" id="pmm-pL-9O6"/>
@@ -313,7 +271,7 @@
             <objects>
                 <collectionViewController id="w83-Xf-aXh" customClass="menuViewControllerCollectionViewController" customModule="Cup_Of_Joe" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="eaI-iJ-Bl6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="0.95445393909999998" blue="0.93281247310000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="5Ro-Tw-HtR">
@@ -361,18 +319,18 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fWf-zH-dtB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="805.60000000000002" y="73.152709359605907"/>
+            <point key="canvasLocation" x="1748" y="73.152709359605907"/>
         </scene>
         <!--Order View Controller-->
         <scene sceneID="wVy-Oh-utO">
             <objects>
                 <viewController id="iDa-rh-GNA" customClass="OrderViewController" customModule="Cup_Of_Joe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dvK-D2-Q3w">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0p-C6-078">
-                                <rect key="frame" x="20" y="64" width="335" height="30"/>
+                                <rect key="frame" x="20" y="152" width="335" height="30"/>
                                 <color key="backgroundColor" red="0.73900612109999997" green="0.52328355049999997" blue="0.225320241" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Order Now">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -399,14 +357,32 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4yl-uZ-MkS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1498.4000000000001" y="73.152709359605907"/>
+            <point key="canvasLocation" x="2440.8000000000002" y="73.152709359605907"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1Bu-ge-bTZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GU3-VV-Xok" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rMS-AU-vjC">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Ugk-EM-Man"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v5A-hV-wKy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="73.152709359605907"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="H2p-8J-gmE"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Cup of Joe Logo" width="960" height="959"/>
+        <image name="Cup_of_Joe_Logo-no-bg" width="500" height="499"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
