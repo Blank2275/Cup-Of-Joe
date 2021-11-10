@@ -29,21 +29,25 @@
                                     <navigationItem title="Pages" id="Y7N-gW-RYY">
                                         <leftBarButtonItems>
                                             <barButtonItem title="Menu" id="MgL-Wu-jMm">
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
                                                     <segue destination="vkD-SX-iue" kind="show" id="HPh-sV-nIM"/>
                                                 </connections>
                                             </barButtonItem>
                                             <barButtonItem title="Hours" id="YXC-d4-T60">
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
                                                     <segue destination="1aB-Ne-vlt" kind="show" id="lrY-BH-gEP"/>
                                                 </connections>
                                             </barButtonItem>
                                             <barButtonItem title="Order" id="Hix-jL-SfF">
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
                                                     <segue destination="iDa-rh-GNA" kind="show" id="UnY-ah-sy2"/>
                                                 </connections>
                                             </barButtonItem>
                                             <barButtonItem title="About" id="A2Y-Bu-Dj4">
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
                                                     <segue destination="K4x-zV-Z5A" kind="show" id="0dS-bK-uFQ"/>
                                                 </connections>
@@ -85,7 +89,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hRd-a1-Tze">
                                 <rect key="frame" x="10" y="98" width="355" height="670"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">The name Cup of Joe is more than just a catchy name for a coffee shop; for us, it also pays homage to the previous ACE coordinator, Joe Allen, who created and developed this student-operated coffee bar nearly a decade ago. His emphasis on respecting and nurturing the unique abilities of all still guides us daily. Being kind and open to trying new things, having fun while learning from mistakes, and giving back are virtues Joe Allen valued which we use to pursue success. As a previous host at Barista Pro Shop in Loveland observed after an ACE field trip, "Vocational training can be a powerful tool to help teens find a career that really aligns with their interests and reveals the way to a career path that will be personally gratifying and rewarding."</mutableString>
+                                <string key="text">The name Cup of Joe is more than just a catchy name for a coffee shop; for us, it also pays homage to the previous ACE coordinator, Joe Allen, who created and developed this student-operated coffee bar nearly a decade ago. His emphasis on respecting and nurturing the unique abilities of all still guides us daily. Being kind and open to trying new things, having fun while learning from mistakes, and giving back are virtues Joe Allen valued which we use to pursue success. As a previous host at Barista Pro Shop in Loveland observed after an ACE field trip, "Vocational training can be a powerful tool to help teens find a career that really aligns with their interests and reveals the way to a career path that will be personally gratifying and rewarding."</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -117,9 +121,9 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yky-uh-vwx">
                                 <rect key="frame" x="10" y="108" width="355" height="598"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Fossil Ridge High School's Cup of Joe coffee shop and SaberLaser engraving service are the two dynamic arms of the Alternative Cooperative Education (ACE) program housed in room 503, right off the cafeteria. The neurodiverse students in Mr. Waters' career skills-based classes learn and practice stress management as they develop confidence being baristas and operating a business.
+                                <string key="text">Fossil Ridge High School's Cup of Joe coffee shop and SaberLaser engraving service are the two dynamic arms of the Alternative Cooperative Education (ACE) program housed in room 503, right off the cafeteria. The neurodiverse students in Mr. Waters' career skills-based classes learn and practice stress management as they develop confidence being baristas and operating a business.
 
-"I'd love for kids to walk out of here feeling comfortable with job skills," Waters says. "I want it to be as much of a real experience as possible."</mutableString>
+"I'd love for kids to walk out of here feeling comfortable with job skills," Waters says. "I want it to be as much of a real experience as possible."</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
