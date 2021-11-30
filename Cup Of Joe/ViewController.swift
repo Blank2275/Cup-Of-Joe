@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AppTrackingTransparency
 
 @IBDesignable extension UIButton {
 
@@ -39,10 +40,30 @@ import UIKit
     }
 }
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        ATTrackingManager.requestTrackingAuthorization(){status in
+            var resText:String = ""
+            switch status{
+            case .authorized:
+                resText = "You may now order"
+                break
+            case .denied:
+                resText = "Please allow in settings to order"
+            default:
+                break
+            }
+            /*
+            let alertController = UIAlertController(title: "App Tracking", message: resText, preferredStyle: .alert)
+            let dismissAction = UIAlertAction(title: "dismiss", style: .cancel, handler: nil)
+            alertController.addAction(dismissAction)
+            self.present(alertController, animated: true, completion: nil)
+            */
+        }
         // Do any additional setup after loading the view.
     }
     @IBAction func scrollUp(_ sender: Any) {

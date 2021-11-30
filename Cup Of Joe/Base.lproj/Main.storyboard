@@ -27,32 +27,32 @@
                                 </constraints>
                                 <items>
                                     <navigationItem title="Pages" id="Y7N-gW-RYY">
-                                        <leftBarButtonItems>
-                                            <barButtonItem title="Menu" id="MgL-Wu-jMm">
+                                        <rightBarButtonItems>
+                                            <barButtonItem title="Menu" id="Nwy-Ep-dJh">
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <segue destination="vkD-SX-iue" kind="show" id="HPh-sV-nIM"/>
+                                                    <segue destination="vkD-SX-iue" kind="show" id="Vp9-TG-MPp"/>
                                                 </connections>
                                             </barButtonItem>
-                                            <barButtonItem title="Hours" id="YXC-d4-T60">
+                                            <barButtonItem title="About" id="niI-on-qV0">
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <segue destination="1aB-Ne-vlt" kind="show" id="lrY-BH-gEP"/>
+                                                    <segue destination="K4x-zV-Z5A" kind="show" id="hvg-q2-GK5"/>
                                                 </connections>
                                             </barButtonItem>
-                                            <barButtonItem title="Order" id="Hix-jL-SfF">
+                                            <barButtonItem title="Order" id="zsm-dU-0mL">
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <segue destination="iDa-rh-GNA" kind="show" id="UnY-ah-sy2"/>
+                                                    <segue destination="iDa-rh-GNA" kind="show" id="Tfv-9c-sIt"/>
                                                 </connections>
                                             </barButtonItem>
-                                            <barButtonItem title="About" id="A2Y-Bu-Dj4">
+                                            <barButtonItem title="Hours" id="caf-sL-r4P">
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <segue destination="K4x-zV-Z5A" kind="show" id="0dS-bK-uFQ"/>
+                                                    <segue destination="1aB-Ne-vlt" kind="show" id="7Ag-CK-brf"/>
                                                 </connections>
                                             </barButtonItem>
-                                        </leftBarButtonItems>
+                                        </rightBarButtonItems>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
