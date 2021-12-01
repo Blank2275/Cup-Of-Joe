@@ -7,6 +7,7 @@
 
 import UIKit
 import AppTrackingTransparency
+import SafariServices
 
 @IBDesignable extension UIButton {
 
@@ -40,12 +41,9 @@ import AppTrackingTransparency
     }
 }
 
-class ViewController: UIViewController
-{
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
+class PrivacyPolicyViewController: SFSafariViewController{
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
         ATTrackingManager.requestTrackingAuthorization(){status in
             var resText:String = ""
             switch status{
@@ -57,13 +55,35 @@ class ViewController: UIViewController
             default:
                 break
             }
-            /*
-            let alertController = UIAlertController(title: "App Tracking", message: resText, preferredStyle: .alert)
-            let dismissAction = UIAlertAction(title: "dismiss", style: .cancel, handler: nil)
-            alertController.addAction(dismissAction)
-            self.present(alertController, animated: true, completion: nil)
-            */
         }
+    }
+}
+
+class ViewController: UIViewController, SFSafariViewControllerDelegate
+{
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let alertController = UIAlertController(title: "Privacy Policy", message: "Please read how we use your data", preferredStyle: .alert)
+        /*let dismissAction = UIAlertAction(title: "dismiss", style: .cancel){_ in
+            self.requestTracking()
+        }
+        alertController.addAction(dismissAction)*/
+        let showTermsAction = UIAlertAction(title: "terms", style: .default){_ in
+            let url = URL(string: "https://sites.google.com/psdschools.org/cupofjoe/home")
+            let svc = PrivacyPolicyViewController(url: url!)
+            svc.delegate = self
+            self.present(svc, animated: true){
+                //self.requestTracking()
+            }
+        }
+        alertController.addAction(showTermsAction)
+        if ATTrackingManager.trackingAuthorizationStatus == .notDetermined{
+            self.present(alertController, animated: true){
+                self.requestTracking()
+            }
+        }
+        
         // Do any additional setup after loading the view.
     }
     @IBAction func scrollUp(_ sender: Any) {
@@ -72,7 +92,10 @@ class ViewController: UIViewController
         self.present(aboutView, animated: true, completion: nil)
         
     }
-    
+    func requestTracking(){
+        DispatchQueue.main.async {
+        }
+    }
 
 }
 
