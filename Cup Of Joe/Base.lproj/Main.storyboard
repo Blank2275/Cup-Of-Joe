@@ -40,12 +40,6 @@
                                                     <segue destination="K4x-zV-Z5A" kind="show" id="hvg-q2-GK5"/>
                                                 </connections>
                                             </barButtonItem>
-                                            <barButtonItem title="Order" id="zsm-dU-0mL">
-                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <connections>
-                                                    <segue destination="iDa-rh-GNA" kind="show" id="Tfv-9c-sIt"/>
-                                                </connections>
-                                            </barButtonItem>
                                             <barButtonItem title="Hours" id="caf-sL-r4P">
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
@@ -334,7 +328,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0p-C6-078">
-                                <rect key="frame" x="20" y="152" width="335" height="30"/>
+                                <rect key="frame" x="20" y="108" width="335" height="30"/>
                                 <color key="backgroundColor" red="0.73900612109999997" green="0.52328355049999997" blue="0.225320241" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Order Now">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

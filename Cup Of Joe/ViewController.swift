@@ -79,9 +79,9 @@ class ViewController: UIViewController, SFSafariViewControllerDelegate
         }
         alertController.addAction(showTermsAction)
         if ATTrackingManager.trackingAuthorizationStatus == .notDetermined{
-            self.present(alertController, animated: true){
-                self.requestTracking()
-            }
+            //self.present(alertController, animated: true){
+                //self.requestTracking()
+            //}
         }
         
         // Do any additional setup after loading the view.
